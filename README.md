@@ -7,29 +7,34 @@
 - LinkedIn: https://www.linkedin.com/in/jungwook-park-0a0b733a4
 
 ### 프로젝트
-- 정리중
+[upstage_workflow_pjt](https://github.com/Yurip94/upstage_workflow_pjt): 보험금 지급거절 통지서를 받은 사용자가 재심의를 준비할 수 있도록 돕는 AI 워크플로우
+- 지급 거절통지서와 유저 정보와 비교해 판례/분쟁사례 기반 유사 근거 탐색
+- LLM이 생성한 Query를 HyDE를 적용해 확장
+- ChromaDB를 사용하여 보험 약관 조항, 금융 분쟁 판례, 유사 조정 사례 VectorDB 검색 활용
+
+[Lumi Idol Agent](): chat agent를 LangGraph를 활용한 MVP 구현 및 CI, CD 까지
+- LangGraph를 활용해 Chat Bot Agent 배포 자동화
+
+[Pommit](https://github.com/Pommit/pommit): GitHub commit 기반 개발자 포트폴리오 생성 에이전트
+- 채용공고 웹스크롤링 개발
+- 회사 기술 블로그 파싱 및 요구 역량 분석 개발
+
 
 ### 기술스택
 
 #### AI / NLP
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white)
-- 랭체인에 대한 어느정도의 이해도를 가지고 있는지 어떤것들을 해봤는지 작성
   
 ![LangGraph](https://img.shields.io/badge/LangGraph-1A73E8?style=flat)
-- 랭그래프에 대한 어느정도의 이해도를 가지고 있는지 어떤것들을 해봤는지 작성
   
 ![Chroma](https://img.shields.io/badge/Chroma-00C897?style=flat)
-- 크로마 벡터 디비에 대한 어느정도의 이해도를 가지고 있는지 어떤것들을 해봤는지 작성
 
 #### Backend / Infra
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-- 패스트 에이피아이에 대한 어느정도의 이해도를 가지고 있는지 어떤것들을 해봤는지 작성
 
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-- 수파베이스 과제에서 사용해본 경험 기술
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-- 도커에 대한 어느정도의 이해도를 가지고 있는지 어떤것들을 해봤는지 작성
   
 #### Tools
 ![LangSmith](https://img.shields.io/badge/LangSmith-2A2B2D?style=flat)
@@ -38,11 +43,11 @@
 
 
 ### 학력/교육
-- Hanyang Cyber University — Computer Science Engieering / Mar 2026 Present
-- UPSTAGE AI Agent Service from design to deploy 1th with SESAC (Seoul Software ACademy) / May 2026 Expected Course Completion
-- KGA Game Contents Disign / Dec 2021 ~ Jun 2022
+- 한양 사이버 대학교 — 컴퓨터공학과 / 1학년 재학중
+- UPSTAGE AI Agent Service deploy - SESAC (Seoul Software ACademy) / 2026년 5월 수료 예정
+- KGA 게임 기획 아카데미 / 2021년 12월 ~ 2022 6월
   
 ### 이력/경험
-- Softon Entertainment — Game Contens Design / Character Design 
-- Setec - Sound Engineering
-- Extensive model and actor career - [![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white)](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=1972608&qvt=0&query=%EB%B0%B0%EC%9A%B0%20%EB%B0%95%EC%A0%95%EC%9A%B1)
+- Softon Entertainment — 게임 기획 / 캐릭터, 전투 밸런스 
+- 세텍 - 사운드 엔지니어
+- 모델 및 배우 활동 - [![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white)](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=1972608&qvt=0&query=%EB%B0%B0%EC%9A%B0%20%EB%B0%95%EC%A0%95%EC%9A%B1)
