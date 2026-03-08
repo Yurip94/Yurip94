@@ -46,4 +46,4 @@
 ### Experience
 - Softon Entertainment — Game Contens Design / Character Design 
 - Setec - Sound Engineering
-- 다수의 모델 및 배우 활동 - [![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white)](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=1972608&qvt=0&query=%EB%B0%B0%EC%9A%B0%20%EB%B0%95%EC%A0%95%EC%9A%B1)
+- Extensive model and actor career - [![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white)](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=1972608&qvt=0&query=%EB%B0%B0%EC%9A%B0%20%EB%B0%95%EC%A0%95%EC%9A%B1)
