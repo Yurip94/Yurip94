@@ -2,15 +2,14 @@
 
 저는 커뮤니케이션 중심으로 실용적인 AI 에이전트 시스템을 설계하고 구축합니다.
 
-- Target Role: Junior AI Agent Architect (Seoul)
-- Primary Contact: qkrqud94@gmail.com**
-- Portfolio (Recommended): 추가 예정
+- 연락처: qkrqud94@gmail.com
+- 포트폴리오 (Recommended): 추가 예정
 - LinkedIn: https://www.linkedin.com/in/jungwook-park-0a0b733a4
 
-### Projects
+### 프로젝트
 - 정리중
 
-### Tech Stack
+### 기술스택
 
 #### AI / NLP
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white)
@@ -38,12 +37,12 @@
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
 
-### Education
+### 학력/교육
 - Hanyang Cyber University — Computer Science Engieering / Mar 2026 Present
 - UPSTAGE AI Agent Service from design to deploy 1th with SESAC (Seoul Software ACademy) / May 2026 Expected Course Completion
 - KGA Game Contents Disign / Dec 2021 ~ Jun 2022
   
-### Experience
+### 이력/경험
 - Softon Entertainment — Game Contens Design / Character Design 
 - Setec - Sound Engineering
 - Extensive model and actor career - [![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white)](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=1972608&qvt=0&query=%EB%B0%B0%EC%9A%B0%20%EB%B0%95%EC%A0%95%EC%9A%B1)
