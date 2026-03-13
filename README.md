@@ -3,8 +3,8 @@
 저는 커뮤니케이션 중심으로 실용적인 AI 에이전트 시스템을 설계하고 구축합니다.
 
 - 연락처: qkrqud94@gmail.com
-- 포트폴리오 (Recommended): 추가 예정
 - LinkedIn: https://www.linkedin.com/in/jungwook-park-0a0b733a4
+- Notion: https://www.notion.so/yuripking/AI-Agent-Architect-321c9a24feff80d385c9e2a58ad48ac1?source=copy_link
 
 ### 프로젝트
 
