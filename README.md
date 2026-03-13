@@ -22,9 +22,10 @@
 - GitHub commit 기반 개발자 포트폴리오 생성 AI 에이전트
 
 **Tech Stack**
-- Python, LangGraph, LangChain
-- Upstage Solar Pro2, Qdrant, ChromaDB
-- FastAPI, Supabase, LangSmith, GitPython
+- AI/Agent: Python, LangGraph, LangChain
+- Backend: FastAPI, Supabase
+- Monitoring: LangSmith
+- Dev: GitPython
 
 **Description**
 
@@ -46,9 +47,10 @@
 - 보험금 지급거절 통지서를 받은 사용자가 재심의를 준비할 수 있도록 돕는 AI 워크플로우
 
 **Tech Stack**
-- Python, LangGraph, LangChain
-- Upstage Solar Pro2, Upstage UIE
-- ChromaDB, Pydantic
+- AI/Agent: Python, LangGraph, LangChain
+- Document AI: Upstage UIE
+- VectorDB: ChromaDB
+- Data: Pydantic
 
 **Description**
 
@@ -66,24 +68,17 @@
 
 ### 기술스택
 
-#### AI / NLP
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white)
-  
-![LangGraph](https://img.shields.io/badge/LangGraph-1A73E8?style=flat)
-  
+#### AI / Agent
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1A73E8?style=flat)
+
+#### VectorDB
 ![Chroma](https://img.shields.io/badge/Chroma-00C897?style=flat)
 
 #### Backend / Infra
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-  
-#### Tools
-![LangSmith](https://img.shields.io/badge/LangSmith-2A2B2D?style=flat)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+#### Monitoring / Tools
+![LangSmith](https://img.shields.io/badge/LangSmith-2A2B2D?style=flat) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
 
 ### 학력/교육
