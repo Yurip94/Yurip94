@@ -7,14 +7,61 @@
 - LinkedIn: https://www.linkedin.com/in/jungwook-park-0a0b733a4
 
 ### 프로젝트
-[upstage_workflow_pjt](https://github.com/Yurip94/upstage_workflow_pjt): 보험금 지급거절 통지서를 받은 사용자가 재심의를 준비할 수 있도록 돕는 AI 워크플로우
-- 지급 거절통지서와 유저 정보와 비교해 판례/분쟁사례 기반 유사 근거 탐색
-- LLM이 생성한 Query를 HyDE를 적용해 확장
-- ChromaDB를 사용하여 보험 약관 조항, 금융 분쟁 판례, 유사 조정 사례 VectorDB 검색 활용
 
-[Pommit](https://github.com/Pommit/pommit): GitHub commit 기반 개발자 포트폴리오 생성 에이전트
-- 채용공고 웹스크롤링 개발
-- 회사 기술 블로그 파싱 및 요구 역량 분석 개발
+| | |
+|---|---|
+| **period** | 2026.01 ~ 현재 |
+| **position** | AI Agent Engineer |
+| **projects** | Pommit, upstage_workflow_pjt |
+
+---
+
+#### [Pommit](https://github.com/Pommit/pommit)
+
+- 2026.01 ~ 현재
+- GitHub commit 기반 개발자 포트폴리오 생성 AI 에이전트
+
+**Tech Stack**
+- Python, LangGraph, LangChain
+- Upstage Solar Pro2, Qdrant, ChromaDB
+- FastAPI, Supabase, LangSmith, GitPython
+
+**Description**
+
+커밋 히스토리를 분석해 개발자의 숨겨진 역량을 발굴하는 multi-agent 시스템
+
+- Company Analysis Pipeline: repo_agent, tech_blog_agent, job_description_agent로 채용공고·기술 블로그 분석
+- User Analysis Pipeline: raw_agent, outline_agent, commit_agent, episode_agent로 커밋 기반 역량 추출
+- LangGraph 기반 병렬/순차 오케스트레이션, agent I/O 계약 설계
+
+**담당 제작 기능**
+- 채용공고 웹 스크래핑 (job_description_agent): URL·텍스트 2가지 입력 방식, 최대 8,000자 처리, 채용요건 5개 카테고리 구조화 추출, 3종 아티팩트(requirements.yaml, summary.md, requirements.txt) 생성
+- 회사 기술 블로그 파싱 및 요구 역량 분석 (tech_blog_agent): URL·HTML·텍스트 3가지 입력 방식, 입력 타입별 신뢰도 차등 적용 (URL 0.85 / HTML 0.75 / text 0.65), 역량 name·category·confidence 3개 필드로 구조화 추출
+
+---
+
+#### [upstage_workflow_pjt](https://github.com/Yurip94/upstage_workflow_pjt)
+
+- 2026.02
+- 보험금 지급거절 통지서를 받은 사용자가 재심의를 준비할 수 있도록 돕는 AI 워크플로우
+
+**Tech Stack**
+- Python, LangGraph, LangChain
+- Upstage Solar Pro2, Upstage UIE
+- ChromaDB, Pydantic
+
+**Description**
+
+3단계 파이프라인(온보딩 → 증거 수집 → 데이터 분석) 기반 보험 분쟁 분석 시스템
+
+- Onboarding Agent: 지급거절 통지서 파싱, 이슈 플래닝, 약관 조항 RAG 검색
+- Data Analysis Agent: 판례/분쟁사례 비교 스코어링, 성공 확률 계산 (LOW/MEDIUM/HIGH), 증거 팩 생성
+- LangGraph MemorySaver 기반 인터럽트/재개 패턴 구현
+
+**담당 제작 기능**
+- 판례/분쟁사례 기반 유사 근거 탐색: top-10 검색 후 base score 70% + lexical overlap 30% 가중 재랭킹
+- HyDE 쿼리 확장: plain·hyde·reverse_hyde·hybrid_hyde 4가지 쿼리 변형 모드 구현
+- 보험 약관 조항·금융 분쟁 판례·유사 조정 사례 3종 VectorDB 구축 (청크 300 tokens / overlap 60 tokens), 8개 스코어링 룰 기반 성공 확률 0–100점 산출 (LOW/MEDIUM/HIGH 3단계)
 
 
 ### 기술스택
