@@ -8,14 +8,6 @@
 
 ### 프로젝트
 
-| | |
-|---|---|
-| **period** | 2026.01 ~ 현재 |
-| **position** | AI Agent Engineer |
-| **projects** | Pommit, upstage_workflow_pjt |
-
----
-
 #### [Pommit](https://github.com/Pommit/pommit)
 
 - 2026.01 ~ 현재
