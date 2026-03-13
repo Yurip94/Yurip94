@@ -33,7 +33,7 @@
 
 ---
 
-#### [upstage_workflow_pjt](https://github.com/Yurip94/upstage_workflow_pjt)
+#### [upstage_workflow_pjt](https://github.com/upstage-mini-PJT/upstage_workflow_pjt)
 
 - 2026.02
 - 보험금 지급거절 통지서를 받은 사용자가 재심의를 준비할 수 있도록 돕는 AI 워크플로우
