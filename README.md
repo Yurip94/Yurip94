@@ -12,9 +12,6 @@
 - LLM이 생성한 Query를 HyDE를 적용해 확장
 - ChromaDB를 사용하여 보험 약관 조항, 금융 분쟁 판례, 유사 조정 사례 VectorDB 검색 활용
 
-[Lumi Idol Agent](): chat agent를 LangGraph를 활용한 MVP 구현 및 CI, CD 까지
-- LangGraph를 활용해 Chat Bot Agent 배포 자동화
-
 [Pommit](https://github.com/Pommit/pommit): GitHub commit 기반 개발자 포트폴리오 생성 에이전트
 - 채용공고 웹스크롤링 개발
 - 회사 기술 블로그 파싱 및 요구 역량 분석 개발
