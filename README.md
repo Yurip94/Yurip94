@@ -1,4 +1,4 @@
-# Jungwook Park — AI Agent Architect
+# Jungwook Park — AI Agent Engineer
 
 저는 커뮤니케이션 중심으로 실용적인 AI 에이전트 시스템을 설계하고 구축합니다.
 
