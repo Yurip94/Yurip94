@@ -4,10 +4,11 @@
 
 - 연락처: qkrqud94@gmail.com
 - Notion: https://www.notion.so/yuribee/Jungwook-Park-AI-Agent-Engineer-321c9a24feff80d385c9e2a58ad48ac1?source=copy_link
+- 포트폴리오: https://yurip94.github.io/index.html
 
 ### 프로젝트
 
-#### [Pommit](https://github.com/Pommit/pommit)
+#### [Pommit]
 
 - 2026.01 ~ 현재
 - GitHub commit 기반 개발자 포트폴리오 생성 AI 에이전트
@@ -32,7 +33,7 @@
 
 ---
 
-#### [upstage_workflow_pjt](https://github.com/upstage-mini-PJT/upstage_workflow_pjt)
+#### [upstage_workflow_pjt]
 
 - 2026.02
 - 보험금 지급거절 통지서를 받은 사용자가 재심의를 준비할 수 있도록 돕는 AI 워크플로우
