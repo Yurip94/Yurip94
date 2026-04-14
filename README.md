@@ -30,6 +30,8 @@
 **담당 제작 기능**
 - 채용공고 웹 스크래핑 (job_description_agent): URL·텍스트 2가지 입력 방식, 최대 8,000자 처리, 채용요건 5개 카테고리 구조화 추출, 3종 아티팩트(requirements.yaml, summary.md, requirements.txt) 생성
 - 회사 기술 블로그 파싱 및 요구 역량 분석 (tech_blog_agent): URL·HTML·텍스트 3가지 입력 방식, 입력 타입별 신뢰도 차등 적용 (URL 0.85 / HTML 0.75 / text 0.65), 역량 name·category·confidence 3개 필드로 구조화 추출
+- JD Agent 입력 정규화·노이즈 억제·구조화 추출 파이프라인 설계 (heuristic fallback 포함)
+- Portfolio Agent: 요구사항-근거 similarity search → 리프레이즈 → 10개 Judge 페르소나 평가 → retry 루프 구조 설계
 
 ---
 
@@ -54,8 +56,10 @@
 
 **담당 제작 기능**
 - 판례/분쟁사례 기반 유사 근거 탐색: top-10 검색 후 base score 70% + lexical overlap 30% 가중 재랭킹
-- HyDE 쿼리 확장: plain·hyde·reverse_hyde·hybrid_hyde 4가지 쿼리 변형 모드 구현
-- 보험 약관 조항·금융 분쟁 판례·유사 조정 사례 3종 VectorDB 구축 (청크 300 tokens / overlap 60 tokens), 8개 스코어링 룰 기반 성공 확률 0–100점 산출 (LOW/MEDIUM/HIGH 3단계)
+- HyDE 쿼리 확장: plain·hyde·reverse_hyde·hybrid_hyde 4가지 쿼리 변형 모드 구현 및 16개 시나리오 비교 실험 (hybrid_hyde 66.6점 최고 성능)
+- 보험 약관 조항·금융 분쟁 판례·유사 조정 사례 3종 VectorDB 구축 (청크 300 tokens / overlap 60 tokens)
+- 8개 스코어링 룰 기반 성공 확률 0–100점 산출 (LOW/MEDIUM/HIGH 3단계)
+- schema_completeness·provenance_coverage·band_validity 3종 자동 평가 지표 설계
 
 
 
